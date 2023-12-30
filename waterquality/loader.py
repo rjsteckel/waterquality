@@ -24,6 +24,7 @@ class DataLoader:
             'Content-Type': 'application/json',
             'Accept': 'application/zip'
         }
+        # hardcode for easy testing
         self.params = {
             "statecode": ["US:48"], 
             "countycode": ["US:48:439"],
